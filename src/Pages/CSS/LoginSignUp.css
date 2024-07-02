@@ -1,0 +1,58 @@
+.loginPage{
+    width: 100%;
+    height: 80vh;
+    padding-top: 100px;
+    background: rgba(207, 152, 207, 0.776); 
+}
+.loginBox{
+    width: 600px;
+    height: 600px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+}
+.loginInputs{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+}
+.loginInputs input{
+    height: 60px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid gray;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+.loginBox button{
+    width: 100%;
+    height: 72px;
+    background: rgb(241, 46, 46);
+    margin-top: 29px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}
+.loginsignup-login{
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.loginsignup-login span{
+    color: rgb(255, 5, 5);
+    font-weight: 600;
+    cursor: pointer;
+}
+.loginsignup-agrree{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
